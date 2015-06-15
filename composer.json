@@ -10,13 +10,6 @@
             "email": "admin@jolyonmiller.co.uk"
         }
     ],
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/openexchangerates/money.js.git"
-    },
-    "require": {
-        "money.js": "*"
-    },
     "autoload": {
         "psr-4": {
             "joemiller\\money\\": ""

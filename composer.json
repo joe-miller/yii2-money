@@ -1,0 +1,25 @@
+{
+    "name": "joe-miller/yii2-money",
+    "description": "Yii2 Money",
+    "keywords": ["money", "yii2", "yii"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Miller",
+            "email": "admin@jolyonmiller.co.uk"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/openexchangerates/money.js.git"
+    },
+    "require": {
+        "money.js": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "joemiller\\money\\": ""
+        }
+    }
+}
